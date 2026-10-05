@@ -1,4 +1,4 @@
-baseURL = 'https://shiomizaka.github.io/blog/'
+baseURL = 'https://shiomizaka.github.io/'
 languageCode = 'en-us'
 title = 'A Study in Mystery'
 theme = 'PaperMod'
@@ -29,15 +29,15 @@ theme = 'PaperMod'
 # --- ここからがボタンの設定 ---
   [[params.profileMode.buttons]]
     name = "blog" # ボタンに表示されるテキスト
-    url = "/blog//posts"   # リンク先のURL
+    url = "/posts/"   # リンク先のURL
 
   [[params.profileMode.buttons]]
     name = "categories"
-    url = "/blog/categories"
+    url = "/categories/"
 
   [[params.profileMode.buttons]]
     name = "tags"
-    url = "/blog/tags"
+    url = "/tags/"
 
 
   # --- ここまで --
